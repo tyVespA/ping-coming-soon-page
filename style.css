@@ -126,6 +126,11 @@ form {
    flex-direction: column;
    gap: 10px;
    width: 100%;
+   margin-top: 30px;
+}
+
+.text-input {
+   flex-grow: 1;
 }
 
 .text-input {
@@ -139,6 +144,7 @@ form {
    }
    button {
       flex-grow: 1;
+      box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
    }
 }
 
